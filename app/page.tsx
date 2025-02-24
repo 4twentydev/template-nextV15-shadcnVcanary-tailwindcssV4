@@ -3,7 +3,7 @@
 import { useTheme } from 'next-themes'
 import { Button } from '@/components/ui/button'
 import { useEffect, useState } from 'react'
-
+import Navbar01Page from '@/components/navbar-01/navbar-01'
 export default function Home() {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
